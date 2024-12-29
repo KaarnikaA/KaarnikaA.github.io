@@ -51,7 +51,7 @@ Developed and deployed an LSTM-based model to predict letters in a Hangman word 
   </div>
 
   <div style="width: 30%; text-align: center; margin-bottom: 20px;">
-    <img src="assets/images/DSA.jpgg" width="50" height="50" /><br />
+    <img src="assets/images/DSA.jpg" width="50" height="50" /><br />
     <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Data Structures and Algorithms</a>
   </div>
 

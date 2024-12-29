@@ -43,10 +43,8 @@ Developed and deployed an LSTM-based model to predict letters in a Hangman word 
 - [certificates drive]([https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA](https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing))
 
 ## Publications
-1. K. S. M. E., V. K. C., K. A., R. T. R., & P. D. (2024). Revitalizing paddy yields with computer vision. 2024 2nd International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT), Bengaluru, India, 745-749.
-- [](https://doi.org/10.1109/IDCIoT59759.2024.10468043)
-2. Jyothikamalesh, S., Kaarnika, A., Mohankumar, M., Vishwakarma, S., Ganguly, S., & Yuvaraj, P. (2024). Efficient VQE approach for accurate simulations on the Kagome lattice. In K. Hemachandran, R. Villamarin, M. Rege, V. Piuri, G. Xu, & K.-L. Ong (Eds.), Artificial Intelligence and Knowledge Processing (pp. 397-409). Springer Nature Switzerland.
-- [](https://doi.org/10.1007/978-3-031-68617-7_28)
+1. K. S. M. E., V. K. C., K. A., R. T. R., & P. D. (2024). Revitalizing paddy yields with computer vision. 2024 2nd International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT), Bengaluru, India, 745-749.[](https://doi.org/10.1109/IDCIoT59759.2024.10468043)
+2. Jyothikamalesh, S., Kaarnika, A., Mohankumar, M., Vishwakarma, S., Ganguly, S., & Yuvaraj, P. (2024). Efficient VQE approach for accurate simulations on the Kagome lattice. In K. Hemachandran, R. Villamarin, M. Rege, V. Piuri, G. Xu, & K.-L. Ong (Eds.), Artificial Intelligence and Knowledge Processing (pp. 397-409). Springer Nature Switzerland.[](https://doi.org/10.1007/978-3-031-68617-7_28)
 
 
 - [Data Science Blog](https://medium.com/@shawhin)

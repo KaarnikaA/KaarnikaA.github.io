@@ -29,11 +29,39 @@ Built and validated an ARIMA model to forecast Bitcoin prices with a prediction 
 
 ### LSTM-Driven Hangman Player for Optimal Word Guessing
 [GitHub ](https://github.com/KaarnikaA/Hangman-Player)
+
 Developed and deployed an LSTM-based model to predict letters in a Hangman word game. Utilized an embedding layer to process word sequences and an LSTM layer to capture dependencies between letters, with a final output layer predicting letter probabilities. Improved game performance by adapting guesses based on previous rounds and dynamic feedback. Demonstrated proficiency in sequence modeling and game AI development.
 
 ![hangman](assets/images/hangman.jpg)
 
 ## Certifications
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+  <div style="width: 30%; text-align: center; margin-bottom: 20px;">
+    <img src="assets/images/applied-data-science-lab.2.png" width="50" height="50" /><br />
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Applied Data Science Lab</a>
+  </div>
+
+
+  <div style="width: 30%; text-align: center; margin-bottom: 20px;">
+    <img src="assets/images/R.jpg" width="50" height="50" /><br />
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">MATLAB Onramp</a>
+  </div>
+
+  <div style="width: 30%; text-align: center; margin-bottom: 20px;">
+    <img src="assets/images/DSA.jpgg" width="50" height="50" /><br />
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Data Structures and Algorithms</a>
+  </div>
+
+  <div style="width: 30%; text-align: center; margin-bottom: 20px;">
+    <img src="assets/images/optionstrading.jpg" width="50" height="50" /><br />
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Options Trading Strategies</a>
+  </div>
+
+</div>
+
 - Applied Data Science Lab (World-quant University)
 - Business Analytics Text Mining Modelling Using Python (NPTEL Examination)
 - MATLAB Onramp (MathWorks)

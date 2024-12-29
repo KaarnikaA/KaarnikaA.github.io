@@ -48,6 +48,15 @@ Developed and deployed an LSTM-based model to predict letters in a Hangman word 
     <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Product Management Basics(pendo)</a>
   </div>
 
+<div style="width: 30%; text-align: center; margin-bottom: 20px;">
+    <img src="assets/images/product-management-basics-certification.png" width="50" height="50" /><br />
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Power BI Job Simulation - pwc(Forage)</a>
+  </div>
+  
+<div style="width: 30%; text-align: center; margin-bottom: 20px;">
+    <img src="assets/images/Data Analytics Quantium.jpg" width="50" height="50" /><br />
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Data Analytics Job Simulation - quantium(Forage)</a>
+  </div>
 
   <div style="width: 30%; text-align: center; margin-bottom: 20px;">
     <img src="assets/images/R.jpg" width="50" height="50" /><br />

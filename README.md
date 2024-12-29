@@ -68,8 +68,6 @@ Developed and deployed an LSTM-based model to predict letters in a Hangman word 
     <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Data Structures and Algorithms(Udemy)</a>
   </div>
 
-
-
 </div>
 
 

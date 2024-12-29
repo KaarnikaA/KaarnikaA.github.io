@@ -49,7 +49,7 @@ Developed and deployed an LSTM-based model to predict letters in a Hangman word 
   </div>
 
 <div style="width: 30%; text-align: center; margin-bottom: 20px;">
-    <img src="assets/images/product-management-basics-certification.png" width="50" height="50" /><br />
+    <img src="assets/images/pwc PowerBI.jpg" width="50" height="50" /><br />
     <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Power BI Job Simulation - pwc(Forage)</a>
   </div>
   
@@ -68,18 +68,10 @@ Developed and deployed an LSTM-based model to predict letters in a Hangman word 
     <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Data Structures and Algorithms(Udemy)</a>
   </div>
 
-  <div style="width: 30%; text-align: center; margin-bottom: 20px;">
-    <img src="assets/images/optionstrading.jpg" width="50" height="50" /><br />
-    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Options Trading Strategies(NSE Academy)</a>
-  </div>
+
 
 </div>
 
-- Applied Data Science Lab (World-quant University)
-- Business Analytics Text Mining Modelling Using Python (NPTEL Examination)
-- MATLAB Onramp (MathWorks)
-- Data Structures and Algorithms using CC++ (Udemy)
-- Options Trading Strategies In Python: Basic (NSE Academy)
 
 - [certificates drive]([https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA](https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing))
 

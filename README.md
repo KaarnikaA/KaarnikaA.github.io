@@ -1,27 +1,30 @@
-# KaarnikaA.github.io
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Programming Skills: Python, C/C++, R
+#### Core Skills: Machine/Deep Learning, Analytics&Visualization, Business Intelligence, Statistics
+#### Soft Skills Communication, Research, Leadership, Mentoring
+#### Software/Tools Apache, Spark, Power BI/Tableau, Advanced Excel
+
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- B.Tech., Computer Science and Business Systems | Sri Eshwar College of Engineering (_May 2025_)								       		
+
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Data Analyst @ PNT Academy (_Dec 2023_)**
+-With a background in testing data prediction algorithms and implementing code solutions for analytical purposes, I have also successfully created a time series model specifically tailored to predict Bitcoin price trends. 
+- Additionally,developed interactive dashboards using PowerBI, enabling effective visualization and analysis of data insights
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+
+**MERNSTACK DEVELOPER @ Chanel-BTech (_December 2023 - Present_)**
+- Interned at Chanel-BTech as a Mernstack Web developer, leading a project for an online vegetable marketplace.
+- Spearheaded platform development, enabling direct customer-farmer interaction, cutting intermediary costs.
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### Cryptocurrency Price Forecasting
+[Publication](https://github.com/KaarnikaA/Bitcoin-price-prediction)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+Built and validated an ARIMA model to forecast Bitcoin prices with a prediction accuracy of approximately 90%, using over 300 days of historical data and walk-forward validation for precision. Integrated interactive widgets to dynamically tune ARIMA parameters (`p` and `q`), improving model adaptability by 15%. Visualized 50+ days of predicted vs. actual prices using Matplotlib, delivering actionable insights for enhanced trading decisions..
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 

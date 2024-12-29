@@ -43,6 +43,10 @@ Developed and deployed an LSTM-based model to predict letters in a Hangman word 
     <img src="assets/images/applied-data-science-lab.2.png" width="50" height="50" /><br />
     <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Applied Data Science Lab</a>
   </div>
+<div style="width: 30%; text-align: center; margin-bottom: 20px;">
+    <img src="assets/images/product-management-basics-certification.png" width="50" height="50" /><br />
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Product Management Basics</a>
+  </div>
 
 
   <div style="width: 30%; text-align: center; margin-bottom: 20px;">

@@ -41,27 +41,27 @@ Developed and deployed an LSTM-based model to predict letters in a Hangman word 
 
   <div style="width: 30%; text-align: center; margin-bottom: 20px;">
     <img src="assets/images/applied-data-science-lab.2.png" width="50" height="50" /><br />
-    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Applied Data Science Lab</a>
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Applied Data Science Lab(World-quant University)</a>
   </div>
 <div style="width: 30%; text-align: center; margin-bottom: 20px;">
     <img src="assets/images/product-management-basics-certification.png" width="50" height="50" /><br />
-    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Product Management Basics</a>
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Product Management Basics(pendo)</a>
   </div>
 
 
   <div style="width: 30%; text-align: center; margin-bottom: 20px;">
     <img src="assets/images/R.jpg" width="50" height="50" /><br />
-    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">MATLAB Onramp</a>
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">MATLAB Onramp(MathWorks)</a>
   </div>
 
   <div style="width: 30%; text-align: center; margin-bottom: 20px;">
     <img src="assets/images/DSA.jpg" width="50" height="50" /><br />
-    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Data Structures and Algorithms</a>
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Data Structures and Algorithms(Udemy)</a>
   </div>
 
   <div style="width: 30%; text-align: center; margin-bottom: 20px;">
     <img src="assets/images/optionstrading.jpg" width="50" height="50" /><br />
-    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Options Trading Strategies</a>
+    <a href="https://drive.google.com/drive/folders/1LgPrpWRj06sNgy7qc8wKp8Rdh-9NCJg8?usp=sharing">Options Trading Strategies(NSE Academy)</a>
   </div>
 
 </div>

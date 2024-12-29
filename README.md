@@ -21,14 +21,14 @@
 
 ## Projects
 ### CoinSight: AI-Powered Cryptocurrency Forecasting
-[Publication](https://github.com/KaarnikaA/Bitcoin-price-prediction)
+[GitHub ](https://github.com/KaarnikaA/Bitcoin-price-prediction)
 
 Built and validated an ARIMA model to forecast Bitcoin prices with a prediction accuracy of approximately 90%, using over 300 days of historical data and walk-forward validation for precision. Integrated interactive widgets to dynamically tune ARIMA parameters (`p` and `q`), improving model adaptability by 15%. Visualized 50+ days of predicted vs. actual prices using Matplotlib, delivering actionable insights for enhanced trading decisions.
 
 ![time-series](assets/images/cryptocurrency.jpg)
 
 ### LSTM-Driven Hangman Player for Optimal Word Guessing
-[Publication](https://github.com/KaarnikaA/Hangman-Player)
+[GitHub ](https://github.com/KaarnikaA/Hangman-Player)
 Developed and deployed an LSTM-based model to predict letters in a Hangman word game. Utilized an embedding layer to process word sequences and an LSTM layer to capture dependencies between letters, with a final output layer predicting letter probabilities. Improved game performance by adapting guesses based on previous rounds and dynamic feedback. Demonstrated proficiency in sequence modeling and game AI development.
 
 ![hangman](assets/images/hangman.jpg)

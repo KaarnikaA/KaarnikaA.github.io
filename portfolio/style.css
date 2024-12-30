@@ -1,0 +1,135 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #00aaff !important;
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    border: 3px solid #ccc;
+    margin-bottom: 1.5rem;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-section p {
+    max-width: 700px;
+    margin: 0 auto 1rem auto;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Projects Section */
+.projects-section {
+    background-color: #f9f9f9;
+}
+
+.projects-section .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: #f4f4f4;
+}
+
+.skills-section .card-img-top {
+    width: 80px;
+    height: auto;
+    margin: 1rem auto;
+}
+
+/* Contact Section */
+.contact-me-section {
+    background-color: #333;
+    color: white;
+}
+
+.btn-circle {
+    background-color: #e91e63;
+    border-radius: 50%;
+    padding: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.btn-circle:hover {
+    transform: scale(1.1);
+    background-color: #d81b60;
+}
+
+.btn-circle img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-me-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-me-section a:hover {
+    color: #00aaff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .contact-me-section .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-me-section .col-md-5 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

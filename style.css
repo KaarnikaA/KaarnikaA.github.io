@@ -153,3 +153,32 @@ html {
         margin-bottom: 1rem;
     }
 }
+.certifications-section .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #fff;
+}
+
+.certifications-section .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.certifications-section .card-img-top {
+    border-radius: 0%;
+    object-fit:contain;
+    background-color: #ffffff;
+}
+
+.certifications-section .card-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.certifications-section .card-title:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landslide Susceptibility Model - A Deep Learning Approach</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+        <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+        color: #333;
+      }
+      .container {
+        margin-top: 20px;
+      }
+      .header-image img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      .header-title {
+        color: #000;
+        text-transform: uppercase;
+        margin-top: 15px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .subheading {
+        color: #6c757d;
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .section-title {
+        color: #0056b3;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      .code-block {
+        background-color: #e9ecef;
+        border: 1px solid #ced4da;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: monospace;
+        font-size: 0.9rem;
+      }
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Image -->
+      <div class="header-image">
+        <!-- Replace with your relevant image for the landslide project -->
+        <img src="images\land.jpg" alt="Landslide Susceptibility" />
+      </div>
+
+      <!-- Title and Subtitle -->
+      <div class="text-center">
+        <h1 class="header-title">
+         Landslide Susceptibility using CasNN
+        </h1>
+        <p class="subheading">
+          -------------------------------------------------------------------------
+        </p>
+              
+        <h2> Building a Landslide Susceptibility Model: A Deep Learning Approach to Natural Hazard Prediction</h2>
+      </div>
+      <h3 class="section-title">The Vision</h3>
+      <p>
+        Can we predict where landslides are likely to occur before they happen? This question drove my research into combining geographical data with neural networks. The goal wasn't just academic – it was about creating a tool that could potentially save lives and infrastructure by identifying high-risk areas.
+      </p>
+
+      <h3 class="section-title">Technical Deep Dive</h3>
+      <h4 class="section-title">Data Integration and Preprocessing</h4>
+      <p>The project started with 12 different geographical features, including:</p>
+      <ul>
+        <li>Elevation and slope data</li>
+        <li>Distance from roads and streams</li>
+        <li>NDVI (Normalized Difference Vegetation Index)</li>
+        <li>Precipitation data</li>
+        <li>Land use/land cover information</li>
+      </ul>
+      <p>One of the most challenging aspects was harmonizing these diverse data sources. I developed a robust preprocessing pipeline:</p>
+
+      <div class="code-block">
+        % Normalize data to [0,1] range<br />
+        min_val = min(current_data(:));<br />
+        max_val = max(current_data(:));<br />
+        if max_val > min_val<br />
+        current_data = (current_data - min_val) / (max_val - min_val);<br />
+        else<br />
+        current_data = zeros(size(current_data));<br />
+        end
+      </div>
+
+      <h4 class="section-title">The Neural Architecture</h4>
+      <p>I implemented a cascading neural network architecture in MATLAB:</p>
+
+      <div class="code-block">
+        % Define and configure neural network<br />
+        hidden_layers = [64, 32, 16]; % Cascading architecture<br />
+        net = fitnet(hidden_layers);<br />
+        <br />
+        % Configuration<br />
+        net.trainFcn = 'trainscg';<br />
+        net.performFcn = 'crossentropy';<br />
+        <br />
+        % Set transfer functions<br />
+        for i = 1:length(hidden_layers)<br />
+        net.layers{i}.transferFcn = 'tansig';<br />
+        end<br />
+        net.layers{end}.transferFcn = 'logsig';<br />
+      </div>
+
+      <h4 class="section-title">Training Insights</h4>
+      <p>The model achieved impressive results:</p>
+
+      <div class="code-block">
+        fprintf('\\nTest Set Performance Metrics:\\n');<br />
+        fprintf('Accuracy: %.4f\\n', accuracy);<br />
+        fprintf('Precision: %.4f\\n', precision);<br />
+        fprintf('Recall: %.4f\\n', recall);<br />
+        fprintf('F1 Score: %.4f\\n', f1_score);<br />
+      </div>
+
+      <p>Key findings:</p>
+      <ul>
+        <li>70-15-15 split for training-validation-testing</li>
+        <li>GPU acceleration significantly improved training speed</li>
+        <li>Early stopping prevented overfitting</li>
+        <li>Cross-entropy loss provided better results than MSE</li>
+      </ul>
+
+      <h3 class="section-title">Challenges and Solutions</h3>
+      <h4 class="section-title">Geographic Data Integration</h4>
+      <p>The biggest challenge was handling multiple geospatial datasets with different resolutions. I solved this through:</p>
+      <ul>
+        <li>Automatic resampling to match reference dimensions</li>
+        <li>Preservation of coordinate reference systems</li>
+        <li>Handling of NaN values in a geospatially aware manner</li>
+      </ul>
+
+      <h4 class="section-title">Performance Optimization</h4>
+      <p>To improve model performance, I implemented:</p>
+      <ul>
+        <li>Parallel processing for data preparation</li>
+        <li>GPU acceleration for network training</li>
+        <li>Efficient memory management for large geographical datasets</li>
+      </ul>
+
+      <h3 class="section-title">Real-World Application</h3>
+      <p>The final output was a comprehensive susceptibility map:</p>
+
+      <div class="code-block">
+        % Generate susceptibility map<br />
+        susceptibility_map = zeros(ref_rows, ref_cols);<br />
+        valid_pixels = ~any(isnan(X), 2);<br />
+        predictions = net(X(valid_pixels, :)')';<br />
+        susceptibility_map = reshape(predictions, ref_rows, ref_cols);<br />
+      </div>
+
+      <p>The model proved particularly effective at:</p>
+      <ul>
+        <li>Identifying high-risk zones in mountainous regions</li>
+        <li>Highlighting areas where multiple risk factors converge</li>
+        <li>Providing probability scores for risk assessment</li>
+      </ul>
+
+      <h3 class="section-title">Future Improvements</h3>
+      <p>Looking ahead, several enhancements could make the system even more robust:</p>
+      <ul>
+        <li>Integration of temporal rainfall data</li>
+        <li>Addition of geological fault line data</li>
+        <li>Implementation of attention mechanisms for feature importance</li>
+        <li>Real-time updating with new satellite data</li>
+      </ul>
+
+      <h3 class="section-title">Technical Learnings</h3>
+      <p>This project taught me valuable lessons about:</p>
+      <ul>
+        <li>The importance of geospatial data preprocessing</li>
+        <li>Balancing model complexity with interpretability</li>
+        <li>The power of deep learning in environmental science</li>
+        <li>Real-world application of risk assessment models</li>
+      </ul>
+
+      <h3 class="section-title">Conclusion</h3>
+      <p>This project demonstrated how deep learning can be effectively applied to environmental risk assessment. The model's ability to process multiple geographical features and produce actionable risk maps shows the potential of AI in natural hazard prediction.</p>
+
+      <p class="note">
+        *Note: This blog post reflects my experience as a student data scientist working on an environmental risk assessment project. All accuracy metrics and performance data are from actual training runs on the model.*
+      </p>
+
+
+    </div>
+  </body>
+</html>

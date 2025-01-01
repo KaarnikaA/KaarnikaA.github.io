@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Prediction</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+        color: #333;
+      }
+      .container {
+        margin-top: 20px;
+      }
+      .header-image img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      .header-title {
+        color: #000;
+        text-transform: uppercase;
+        margin-top: 15px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .subheading {
+        color: #6c757d;
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .section-title {
+        color: #0056b3;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      .code-block {
+        background-color: #e9ecef;
+        border: 1px solid #ced4da;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: monospace;
+        font-size: 0.9rem;
+      }
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+          <div class="header-image">
+      <img
+        src="images\cryptocurrency.jpg"
+        alt="Blog Header Image"
+      />
+    </div>
+      <!-- Title and Subtitle -->
+      <div class="text-center">
+        <h1 class="header-title">
+          CoinSight: AI-Powered Cryptocurrency Forecasting
+        </h1>
+        <p class="subheading">
+          -------------------------------------------------------------------------
+        </p>
+        <h2>My First Deep Dive into Crypto Prediction</h2>
+      </div>
+      <h2 class="section-title">The Vision</h2>
+      <p>
+        As a second-year computer science student fascinated by both
+        cryptocurrency and AI, I decided to challenge myself by building a
+        Bitcoin price prediction model. What started as a weekend project turned
+        into an exciting journey into the world of time series analysis and
+        financial forecasting.
+      </p>
+
+      <h3 class="section-title">Starting from Square One</h3>
+      <p>
+        Coming in with basic Python knowledge and zero experience in financial
+        modeling, I had to learn everything from scratch. My first challenge?
+        Understanding what ARIMA even meant! After countless YouTube tutorials
+        and Stack Overflow deep dives, I gradually pieced together that it
+        stands for Autoregressive Integrated Moving Average - a powerful tool
+        for time series prediction.
+      </p>
+
+      <h3 class="section-title">Building the Project</h3>
+      <p>I started with these libraries:</p>
+      <div class="code-block">
+        <pre>
+import pandas as pd
+from statsmodels.tsa.arima.model import ARIMA
+import ipywidgets as widgets
+import matplotlib.pyplot as plt
+        </pre>
+      </div>
+      <p>
+        The learning curve was steep. Each line of code taught me something new:
+      </p>
+      <ul>
+        <li>
+          <strong>pandas</strong> showed me how crucial data preprocessing is
+        </li>
+        <li>
+          <strong>statsmodels</strong> introduced me to actual statistical
+          modeling
+        </li>
+        <li>
+          <strong>ipywidgets</strong> opened my eyes to interactive data
+          visualization
+        </li>
+      </ul>
+
+      <h3 class="section-title">The Aha Moments</h3>
+      <p>
+        My biggest breakthrough came when implementing walk-forward validation.
+        Instead of just splitting the data and hoping for the best, the model
+        retrains with each new datapoint:
+      </p>
+      <div class="code-block">
+        <pre>
+for i in range(len(y_test)):
+    model = ARIMA(history, order=(p_widget.value, 0, q_widget.value)).fit() 
+    next_pred = model.forecast(steps=1)
+        </pre>
+      </div>
+      <p>
+        I remember the excitement when I first got this working - it felt like
+        magic seeing predictions update in real-time!
+      </p>
+
+      <h3 class="section-title">Learning Through Mistakes</h3>
+      <p>Some memorable lessons:</p>
+      <ul>
+        <li>
+          Initially forgot about timezones - my predictions were offset by 5.5
+          hours until I discovered <code>tz_convert()</code>
+        </li>
+        <li>Crashed my laptop trying to train with p=50 (rookie mistake!)</li>
+        <li>Learned the hard way why data normalization matters</li>
+      </ul>
+
+      <h3 class="section-title">Interactive Features</h3>
+      <p>
+        The most fun part was adding sliders for p and q parameters. Even though
+        I barely understood what they meant at first, watching how different
+        values affected the predictions helped me grasp the concepts better than
+        any textbook could.
+      </p>
+
+      <h3 class="section-title">What's Next?</h3>
+      <p>
+        This project taught me that I still have so much to learn. Future goals:
+      </p>
+      <ul>
+        <li>Understanding advanced statistical concepts behind ARIMA</li>
+        <li>Learning about neural networks for time series</li>
+        <li>Exploring blockchain data analysis</li>
+      </ul>
+
+      <h3 class="section-title">Conclusion</h3>
+      <p>
+        Looking back, I'm amazed at how much I've learned. From barely knowing
+        what time series analysis meant to building a working prediction model -
+        it's been quite a ride! While I know this is just the beginning of my
+        data science journey, it's projects like these that confirm I'm on the
+        right path.
+      </p>
+      <p>
+        <strong>P.S.</strong> To any other beginners out there - don't be afraid
+        to tackle projects that seem beyond your current skills. The learning
+        experience is worth every debugging session!
+      </p>
+
+  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

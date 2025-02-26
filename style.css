@@ -182,3 +182,23 @@ html {
 .certifications-section .card-title:hover {
     text-decoration: underline;
 }
+#extracurricular .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#extracurricular .card:hover {
+    transform: scale(1.05);
+}
+
+#extracurricular .card-img-top {
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#extracurricular .card-body {
+    text-align: center;
+}
+

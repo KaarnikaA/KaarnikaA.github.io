@@ -187,9 +187,7 @@ html {
     transition: transform 0.3s ease-in-out;
 }
 
-#extracurricular .card:hover {
-    transform: scale(1.05);
-}
+
 
 #extracurricular .card-img-top {
     border: none;
